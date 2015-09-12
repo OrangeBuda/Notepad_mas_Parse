@@ -2,11 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:localId="@+localId/menu_main_add_message"
+        android:id="@+id/menu_main_add_message"
         android:title="@string/insert_note" />
 
     <item
-        android:localId="@+localId/menu_main_clear_list"
+        android:id="@+id/menu_main_clear_list"
         android:title="@string/clear_list" />
 
 </menu>
