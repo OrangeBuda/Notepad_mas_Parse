@@ -19,8 +19,8 @@ public class NotesContract {
     public static final String REMOTE_ID = "remoteId";
     public static final String TITLE = "title";
     public static final String CONTENT = "content";
-    public static final String CREATION_UNIX_TIME = "CreationUnixTime";
-    public static final String MODIFICATION_UNIX_TIME = "ModificationUnixTime";
+    public static final String CREATION_UNIX_TIME = "creationUnixTime";
+    public static final String MODIFICATION_UNIX_TIME = "modificationUnixTime";
 
 
     public static List<Note> manyFromCursor(final  Cursor cursor)  {
